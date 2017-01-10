@@ -25,7 +25,7 @@
 (function () {
     "use strict";
     var extension = function (dashjs, flowplayer) {
-        var engineName = "dash",
+        var engineName = "holaDash",
             mse = window.MediaSource || window.WebKitMediaSource,
             common = flowplayer.common,
             extend = flowplayer.extend,
@@ -49,7 +49,9 @@
 
                     engine = {
                         engineName: engineName,
-
+                       
+                        holaEngine: true,
+                       
                         pick: function (sources) {
                             var i,
                                 source,
