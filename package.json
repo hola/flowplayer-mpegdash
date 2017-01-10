@@ -1,6 +1,6 @@
 {
   "name": "flowplayer-dashjs",
-  "version": "1.0.1",
+  "version": "1.0.1-hola.0",
   "description": "Flowplayer dashjs plugin",
   "main": "flowplayer.dashjs.js",
   "scripts": {
@@ -21,9 +21,6 @@
   "homepage": "https://github.com/flowplayer/flowplayer-mpegdash",
   "dependencies": {
     "dashjs": "2.3.0"
-  },
-  "peerDependencies": {
-    "flowplayer": "^6.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
